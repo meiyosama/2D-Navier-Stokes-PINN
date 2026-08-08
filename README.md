@@ -14,7 +14,7 @@ Physics-Informed Neural Network (PINN) solving the 2D incompressible Navier-Stok
 
 This project implements a Physics-Informed Neural Network (PINN) to solve the 2D incompressible Navier-Stokes equations. Given spatial coordinates `(x, y)` and time `t`, the model predicts the velocity field `(u, v)` and pressure `p`, while being constrained during training to also satisfy the governing PDEs (continuity and momentum equations), not just fit the data.
 
-This work was originally developed as a graduation project (Bitirme Projesi II) at Istanbul University – Cerrahpaşa, Department of Mechanical Engineering, and an extended version was published as a conference abstract at **ICAENS 2025** (8th International Conference on Applied Engineering and Natural Sciences).
+This work was originally developed as a graduation project (Bitirme Projesi II) at Istanbul University – Cerrahpaşa, Department of Mechanical Engineering. A 1-page summary of the study was published as a conference abstract at **ICAENS 2025** (8th International Conference on Applied Engineering and Natural Sciences).
 
 ### Method
 
@@ -79,7 +79,7 @@ Onur Eren Atar, Mehmet Şirin Demir — *Fourier Özellik Kodlaması ile Gelişt
 
 Bu proje, 2 boyutlu sıkıştırılamaz Navier-Stokes denklemlerini çözmek için bir Fizik Bilgili Sinir Ağı (Physics-Informed Neural Network, PINN) uygular. Model, konum `(x, y)` ve zaman `t` bilgileri verildiğinde hız alanı `(u, v)` ve basınç `p` değerlerini tahmin eder; eğitim sırasında sadece veriye uymakla kalmaz, aynı zamanda temel fiziksel denklemleri (süreklilik ve momentum denklemleri) de sağlayacak şekilde kısıtlanır.
 
-Bu çalışma, İstanbul Üniversitesi – Cerrahpaşa Makine Mühendisliği Bölümü'nde bir bitirme projesi (Bitirme Projesi II) olarak geliştirilmiş, genişletilmiş bir versiyonu ise **ICAENS 2025** (8. Uluslararası Uygulamalı Mühendislik ve Doğa Bilimleri Konferansı) özet kitabında yayımlanmıştır.
+Bu çalışma, İstanbul Üniversitesi – Cerrahpaşa Makine Mühendisliği Bölümü'nde bir bitirme projesi (Bitirme Projesi II) olarak geliştirilmiştir. Çalışmanın 1 sayfalık bir özeti, **ICAENS 2025** (8. Uluslararası Uygulamalı Mühendislik ve Doğa Bilimleri Konferansı) özet kitabında yayımlanmıştır.
 
 ### Yöntem
 
